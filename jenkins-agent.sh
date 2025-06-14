@@ -29,7 +29,7 @@ systemctl start docker
 systemctl enable docker
 usermod -aG docker ec2-user
 
-curl -O curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.33.0/2025-05-01/bin/linux/amd64/kubectl
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.33.0/2025-05-01/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 mv kubectl /usr/local/bin/kubectl
 
